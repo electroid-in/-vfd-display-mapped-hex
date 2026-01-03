@@ -99,7 +99,9 @@ Grid 1 – Segment Mapping
 | 10            | Arrow 5     |
 | 11            | Disk symbol |
 | 12–16         | NC          |
+
 VFD Full Matrix Table (Grids 1 → 12)
+
 | Grid | Seg1    | Seg2 | Seg3    | Seg4  | Seg5 | Seg6   | Seg7   | Seg8   | Seg9   | Seg10  | Seg11 | Seg12 | Seg13 | Seg14   | Seg15 | Seg16 |
 | ---- | ------- | ---- | ------- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ----- | ----- | ----- | ------- | ----- | ----- |
 | 1    | 1       | 2    | 3       | 4     | 5    | Arrow1 | Arrow2 | Arrow3 | Arrow4 | Arrow5 | Disk  | NC    | NC    | NC      | NC    | NC    |
