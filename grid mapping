@@ -1,56 +1,33 @@
-Grid 11
-Segment	Function
-1	SHUFFLE
-2	FTS
-3	REPEAT1
-4	PAUSE
-5–13	Normal segments
-14–16	(Not used)
-Grid 10
-Segment	Function
-1–13	Normal segments
-14	TIME
-15–16	—
-Grid 9
-Segment	Function
-1–13	Normal segments
-14	REM
-15–16	—
-Grid 8
-Segment	Function
-1–13	Normal segments
-14	Colon “ : ”
-15–16	—
-Grid 7
-Segment	Function
-1–13	Normal segments
-14	TOTAL
-15–16	—
-Grid 6
-Segment	Function
-1–13	Normal segments
-14–16	—
-Grid 5
-Segment	Function
-1–13	Normal segments
-14	TRACK
-15	“8”
-16	“9”
-Grid 4
-Segment	Function
-1–13	Normal segments
-14	PROG
-15	6
-16	7
-Grid 3
-Segment	Function
-1–13	Normal segments
-14	3
-15	4
-16	5
-Grid 2
-Segment	Function
-1–13	Normal segments
-14	EDIT
-15	1
-16	2
+| Text / Term / Number | Grid | Segment | Hex Code (example) |
+| -------------------- | ---- | ------- | ------------------ |
+| 1                    | 2    | 15      | 0x8000             |
+| 2                    | 2    | 16      | 0x10000            |
+| 3                    | 3    | 14      | 0x4000             |
+| 4                    | 3    | 15      | 0x8000             |
+| 5                    | 3    | 16      | 0x10000            |
+| 6                    | 4    | 15      | 0x8000             |
+| 7                    | 4    | 16      | 0x10000            |
+| 8                    | 5    | 15      | 0x8000             |
+| 9                    | 5    | 16      | 0x10000            |
+| 10                   | 12   | 10      | 0x01               |
+| 11                   | 12   | 11      | 0x02               |
+| 12                   | 12   | 12      | 0x04               |
+| 13                   | 12   | 13      | 0x08               |
+| 14                   | 12   | 14      | 0x10               |
+| 15                   | 12   | 15      | 0x20               |
+| 16                   | 12   | 16      | 0x40               |
+| 17                   | 12   | 17      | 0x80               |
+| 18                   | 12   | 18      | 0x100              |
+| 19                   | 12   | 19      | 0x200              |
+| 20                   | 12   | 20      | 0x400              |
+| SHUFFLE              | 11   | 1       | 0x01               |
+| FTS                  | 11   | 2       | 0x02               |
+| REPEAT1              | 11   | 3       | 0x04               |
+| PAUSE                | 11   | 4       | 0x08               |
+| TIME                 | 10   | 14      | 0x4000             |
+| REM                  | 9    | 14      | 0x4000             |
+| Colon `:`            | 8    | 14      | 0x4000             |
+| TOTAL                | 7    | 14      | 0x4000             |
+| TRACK                | 5    | 14      | 0x4000             |
+| PROG                 | 4    | 14      | 0x4000             |
+| EDIT                 | 2    | 14      | 0x4000             |
